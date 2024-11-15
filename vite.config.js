@@ -14,7 +14,14 @@ export default defineConfig({
       plugins: [tailwind(), autoprefixer()],
     },
   },
-
+  // proxy: {
+  //   "/B551011/KorService1": {
+  //     target: "http://apis.data.go.kr",
+  //     changeOrigin: true,
+  //     rewrite: (path) =>
+  //       path.replace(/^\/B551011\/KorService1/, "/B551011/KorService1"),
+  //   },
+  // },
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

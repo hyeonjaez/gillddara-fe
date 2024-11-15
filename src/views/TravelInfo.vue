@@ -1,5 +1,6 @@
 <!-- src/views/TravelInfo.vue -->
 <template>
+  <Header />
   <div class="travel-info-page">
     <KakaoMapComponent />
   </div>
@@ -7,6 +8,7 @@
 
 <script setup>
 import KakaoMapComponent from "@/components/common/KakaoMapComponent.vue";
+import Header from "@/components/common/Header.vue";
 </script>
 
 <style scoped>
