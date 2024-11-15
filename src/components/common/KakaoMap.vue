@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { KakaoMap, KakaoMapMarker, KakaoMapPolyline } from 'vue3-kakao-maps';
 import { useTripStore } from "@/stores/trip";
-import VMarkerInfo from "./VMarkerInfo.vue";
+import VMarkerInfo from "./MarkerInfo.vue";
 const tripStore = useTripStore();
 
 const map = ref();

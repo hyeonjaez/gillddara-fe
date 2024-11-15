@@ -1,4 +1,3 @@
-<!-- src/components/common/VMarkerInfo.vue -->
 <template>
   <div class="marker-info">
     <h4>{{ attraction.title }}</h4>
@@ -20,24 +19,25 @@ const props = defineProps({
 
 <style scoped>
 .marker-info {
-  width: 200px;
+  width: 220px;
+  padding: 10px;
 }
 
 .marker-info h4 {
   margin: 0;
-  font-size: 16px;
-  color: #333;
+  font-size: 18px;
+  color: #2c3e50;
 }
 
 .marker-info p {
   margin: 5px 0;
   font-size: 14px;
-  color: #555;
+  color: #7f8c8d;
 }
 
 .marker-info a {
   text-decoration: none;
-  color: #1e90ff;
+  color: #2980b9;
   font-size: 14px;
 }
 
